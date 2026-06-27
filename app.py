@@ -6,6 +6,6 @@ uploaded_file = st.file_uploader('Upload the pic of Fruit',type=["jpg","jpeg","p
 
 for uploaded_image in uploaded_file:
     if uploaded_image is not None:
-        prediction = predict(uploaded_image)
         st.image(uploaded_image)
+        prediction = predict(uploaded_image)
         st.info(f"Fruit Freshness: {prediction}")
