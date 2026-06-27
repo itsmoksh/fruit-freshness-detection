@@ -1,0 +1,7 @@
+streamlit==1.46.0
+torch==2.8.0+cu126
+torchvision==0.23.0+cu126
+pillow==11.2.1
+matplotlib==3.10.1
+numpy==2.2.4
+scikit-learn==1.6.1
